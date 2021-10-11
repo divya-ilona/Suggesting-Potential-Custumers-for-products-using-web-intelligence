@@ -1,3 +1,6 @@
+### Demo
+https://user-images.githubusercontent.com/72082359/136751454-c53f5f5f-b788-41a4-a6ea-91cf9f0062f0.mp4
+
 ### Suggesting-Potential-Custumers-for-products-using-web-intelligence
 Developed by Divya, Chhavi, Srashti and Nirmal\
 This project is about developing and evaluating informatics tools and frameworks to collect, monitor, analyze, summarize, and visualize data on VMware Social Media handles and any technology buzzfeed. 
@@ -13,3 +16,6 @@ Database: csv file
 1. Clone this repository and chagne the directory with cd command
 2. Install all the dependencies like Snscrape
 3. Download Octoparse for webscraping from https://www.octoparse.com/download/windows
+
+
+
