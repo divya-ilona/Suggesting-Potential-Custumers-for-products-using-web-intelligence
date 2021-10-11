@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='style.css'>
+  <title>Codehouse project</title>
+</head>
+<body>
+  <nav><h1>Potential Customers</h1></nav>
+  <div class="wrap">
+    <div class="search">
+      <input type="text" class="searchTerm" placeholder="Enter you keyword here">
+      <button type="submit" class="searchButton" onclick="showOutput()">
+       <i class="fa fa-search">search</i>
+     </button>
+   </div>
+   <div class="table" id="1">
+    <h2>You can approach the following the customers for products</h2>
+<table class="rwd-table">
+  <tr>
+    <th>Customer name</th>
+    <th>Product</th>
+  </tr>
+  <tr>
+    <td data-th="Customer name">Foenix-start</td>
+    <td data-th="Product">VMware Cloud</td>
+  </tr>
+  <tr>
+    <td data-th="Customer name">barkoss4</td>
+    <td data-th="Product">"Tanzu Basic"</td>
+  </tr>
+  <tr>
+    <td data-th="Customer name">axin_ax</td>
+    <td data-th="Product">VMware Cloud</td>
+  </tr>
+  <tr>
+    <td data-th="Customer name">cloudC_1</td>
+    <td data-th="Product">AI</td>
+  </tr>
+  <tr>
+    <td data-th="Customer name">media_diamante</td>
+    <td data-th="Product">VMware Cloud</td>
+  </tr>
+  <tr>
+    <td data-th="Customer name">donnapirate</td>
+    <td data-th="Product">AI</td>
+  </tr>
+  <tr>
+    <td data-th="Customer name">stockexamen</td>
+    <td data-th="Product">AI</td>
+  </tr>
+  <tr>
+    <td data-th="Customer name">TIPlatform</td>
+    <td data-th="Product">AI</td>
+  </tr>
+  <tr>
+    <td data-th="Customer name">WeAreAMS</td>
+    <td data-th="Product">AI</td>
+  </tr>
+
+</table>
+</div>
+ </div>
+
+ <script>
+   function showOutput(){
+     document.getElementById('1').style.display = "block";
+   }
+ </script>
+
+</body>
+</html>
